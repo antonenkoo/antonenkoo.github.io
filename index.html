@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mark Antonenko · Technical Support, QA & AI Automation</title>
+<meta name="description" content="Mark Antonenko: technical support, QA and AI automation. 3.5 years in a SaaS product as developer, QA engineer and project manager. Remote, Ukraine.">
+<meta property="og:title" content="Mark Antonenko · Technical Support, QA & AI Automation">
+<meta property="og:description" content="I built a system that runs the business of 20+ apartments and keep the client communication rating at 4.9. 3.5 years in SaaS as developer, QA engineer and project manager.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --bg: #ffffff; --soft: #f5f5f7; --text: #1d1d1f; --muted: #6e6e73; --line: #e5e5ea;
+    --accent: #0a64d8; --accent-soft: #e8f0fd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111113; --soft: #1c1c1f; --text: #f5f5f7; --muted: #a1a1a6; --line: #2c2c30; --accent: #4c9bff; --accent-soft: #15253d; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+  nav { position: sticky; top: 0; background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: saturate(180%) blur(16px); -webkit-backdrop-filter: saturate(180%) blur(16px); border-bottom: 1px solid var(--line); z-index: 10; }
+  nav .wrap { display: flex; align-items: center; gap: 22px; height: 56px; }
+  nav .brand { font-weight: 700; margin-right: auto; letter-spacing: -.01em; }
+  nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
+  nav a:hover { color: var(--text); }
+  header { padding: 88px 0 56px; }
+  .eyebrow { color: var(--accent); font-weight: 600; font-size: 15px; letter-spacing: .02em; margin-bottom: 14px; }
+  h1 { font-size: clamp(40px, 7vw, 64px); line-height: 1.04; letter-spacing: -.03em; margin: 0 0 22px; }
+  .lead { font-size: clamp(19px, 2.4vw, 22px); color: var(--muted); max-width: 680px; margin: 0 0 34px; }
+  .lead b { color: var(--text); font-weight: 600; }
+  .cta { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 980px; font-weight: 600; font-size: 16px; text-decoration: none; border: 1px solid var(--line); color: var(--text); background: var(--bg); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn:hover { filter: brightness(1.05); }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 8px 0 40px; }
+  .stat { background: var(--soft); border-radius: 18px; padding: 20px; }
+  .stat b { display: block; font-size: 32px; letter-spacing: -.02em; line-height: 1.1; }
+  .stat span { color: var(--muted); font-size: 14px; }
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 30px; letter-spacing: -.02em; margin: 0 0 28px; }
+  .job { display: grid; grid-template-columns: 170px 1fr; gap: 6px 28px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+  .job:last-child { border-bottom: 0; }
+  .when { color: var(--muted); font-size: 15px; padding-top: 3px; }
+  .job h3 { margin: 0; font-size: 20px; letter-spacing: -.01em; }
+  .org { color: var(--muted); margin: 2px 0 10px; font-size: 15px; }
+  .job ul { margin: 0; padding-left: 18px; }
+  .job li { margin: 5px 0; }
+  .job li::marker { color: var(--muted); }
+  .roles { margin-top: 14px; display: grid; gap: 14px; }
+  .role h4 { margin: 0 0 4px; font-size: 16px; }
+  .role h4 span { color: var(--muted); font-weight: 400; margin-left: 8px; font-size: 14px; }
+  .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .card { background: var(--soft); border-radius: 18px; padding: 22px; }
+  .card h3 { margin: 0 0 10px; font-size: 17px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: var(--bg); border: 1px solid var(--line); border-radius: 980px; padding: 5px 12px; font-size: 14px; }
+  .langs { color: var(--muted); margin-top: 18px; font-size: 15px; }
+  .contact { background: var(--accent-soft); border-radius: 24px; padding: 40px; text-align: center; }
+  .contact p { color: var(--muted); max-width: 520px; margin: 0 auto 26px; }
+  .contact .cta { justify-content: center; }
+  footer { color: var(--muted); font-size: 13px; padding: 32px 0 48px; text-align: center; }
+  @media (max-width: 720px) {
+    nav .links { display: none; }
+    header { padding: 56px 0 40px; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .job { grid-template-columns: 1fr; }
+    .cards { grid-template-columns: 1fr; }
+    .contact { padding: 28px 20px; }
+  }
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <span class="brand">Mark Antonenko</span>
+  <span class="links"><a href="#experience">Experience</a> &nbsp; <a href="#skills">Skills</a> &nbsp; <a href="#contact">Contact</a></span>
+  <a class="btn" href="Mark_Antonenko_CV.pdf" download style="padding:7px 14px;font-size:14px">CV</a>
+</div></nav>
+
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Technical Support · QA · AI Automation</div>
+    <h1>I make routine work run itself, and keep people happy with the result.</h1>
+    <p class="lead">I built a system that runs the business of <b>20+ apartments</b> and keep the client communication rating steadily at <b>4.9</b>. Before that, <b>3.5 years in a SaaS product</b> as developer, QA engineer and project manager. Remote, Ukraine.</p>
+    <div class="cta">
+      <a class="btn primary" href="Mark_Antonenko_CV.pdf" download>Download CV</a>
+      <a class="btn" href="https://t.me/mark4121">Telegram</a>
+      <a class="btn" href="mailto:mark.antonenko57@gmail.com">Email</a>
+    </div>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><b>20+</b><span>apartments run on my system</span></div>
+    <div class="stat"><b>4.9</b><span>client communication rating</span></div>
+    <div class="stat"><b>1-5 min</b><span>typical reply time to guests</span></div>
+    <div class="stat"><b>3.5 yrs</b><span>in a SaaS product team</span></div>
+  </div>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="when">Jul 2026 - now</div>
+      <div>
+        <h3>Operations Manager</h3>
+        <div class="org">Short-term rental company, Vienna · remote</div>
+        <ul>
+          <li>Built a system that runs the business of 20+ apartments and kept the client communication rating steadily at 4.9.</li>
+          <li>AI answers standard guest questions within 1 to 5 minutes and passes the rest to me with a ready reply; each apartment has its own fact base.</li>
+          <li>Handled guest requests, conflicts and urgent repairs; coordinated cleaning staff and maintenance through Telegram bots and schedules built from live bookings.</li>
+          <li>Stack: TypeScript, Node.js, MongoDB, Claude API, Hostaway API, with automated tests before every release.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="when">Jan 2023 - Jun 2026</div>
+      <div>
+        <h3>Logistics SaaS company</h3>
+        <div class="org">Trucking dispatch CRM and driver mobile app · remote</div>
+        <div class="roles">
+          <div class="role">
+            <h4>Project Manager<span>Jan 2026 - Jun 2026</span></h4>
+            <ul>
+              <li>Link between the client and a 7-person team: turned requests into tasks and tracked delivery.</li>
+              <li>Collected client feedback on each version and fed it back into the backlog; weekly or bi-weekly releases.</li>
+            </ul>
+          </div>
+          <div class="role">
+            <h4>QA Engineer<span>Sep 2024 - Dec 2025</span></h4>
+            <ul>
+              <li>Tested the iOS driver app and a large multi-module web CRM: functional, regression and release testing.</li>
+              <li>Test cases and bug reports, API checks with Postman and Insomnia, triage in Jira and GitLab.</li>
+            </ul>
+          </div>
+          <div class="role">
+            <h4>Full-stack Developer<span>Jan 2023 - Aug 2024</span></h4>
+            <ul>
+              <li>CRM features in Angular (NgRx) and REST APIs in Node.js; integrations with Stripe, Google Maps, Firebase and Sentry.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="when">Feb 2024 - Aug 2024</div>
+      <div>
+        <h3>Freelance QA & Front-end Developer</h3>
+        <div class="org">US fuel tax reporting service for trucking</div>
+        <ul><li>Unit tests and front-end features: data tables and a small marketing website.</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="cards">
+      <div class="card"><h3>Support & operations</h3><div class="chips"><span class="chip">Chat and email support</span><span class="chip">Issue resolution</span><span class="chip">Escalation</span><span class="chip">Ticket triage</span><span class="chip">Knowledge base</span></div></div>
+      <div class="card"><h3>QA</h3><div class="chips"><span class="chip">Regression testing</span><span class="chip">Release testing</span><span class="chip">Web and iOS apps</span><span class="chip">Test cases</span><span class="chip">Bug reports</span><span class="chip">Postman</span></div></div>
+      <div class="card"><h3>Project coordination</h3><div class="chips"><span class="chip">Requirements</span><span class="chip">Task breakdown</span><span class="chip">Releases</span><span class="chip">Client communication</span><span class="chip">Jira</span><span class="chip">GitLab</span><span class="chip">Notion</span></div></div>
+      <div class="card"><h3>Tech & AI</h3><div class="chips"><span class="chip">TypeScript</span><span class="chip">Angular</span><span class="chip">Node.js</span><span class="chip">MongoDB</span><span class="chip">SQL (basic)</span><span class="chip">Claude API</span><span class="chip">Telegram bots</span></div></div>
+    </div>
+    <p class="langs">Languages: Ukrainian and Russian (native), English (B2).</p>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Let's talk</h2>
+      <p>Open to remote roles in customer support, technical support, QA and project coordination. The fastest way to reach me is Telegram.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://t.me/mark4121">Telegram @mark4121</a>
+        <a class="btn" href="mailto:mark.antonenko57@gmail.com">mark.antonenko57@gmail.com</a>
+        <a class="btn" href="Mark_Antonenko_CV.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>Mark Antonenko · Ukraine · 2026</footer>
+</body>
+</html>
