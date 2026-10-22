@@ -3,221 +3,207 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mark Antonenko · Technical Support, QA & AI Automation</title>
-<meta name="description" content="Mark Antonenko: technical support, QA and AI automation. I built a system that runs the business of 20+ apartments with a 4.9 client communication rating. 3.5 years in SaaS. Remote, Ukraine.">
-<meta property="og:title" content="Mark Antonenko · Technical Support, QA & AI Automation">
-<meta property="og:description" content="Routine, automated. People, cared for. 3.5 years in SaaS as developer, QA engineer and project manager.">
-<meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
+<title>Mark Antonenko · Technical Support, QA and AI Automation</title>
+<meta name="description" content="Mark Antonenko, technical support, QA and AI automation specialist. Built a system that runs the business of 20+ apartments with a 4.9 client communication rating. 3.5 years in SaaS. Remote, Ukraine.">
+<link rel="canonical" href="https://antonenkoo.github.io/">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://antonenkoo.github.io/">
+<meta property="og:title" content="Mark Antonenko · Technical Support, QA and AI Automation">
+<meta property="og:description" content="Built a system that runs the business of 20+ apartments with a 4.9 client communication rating. 3.5 years in SaaS as developer, QA engineer and project manager.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Mark Antonenko","jobTitle":"Technical Support, QA and AI Automation","url":"https://antonenkoo.github.io/","email":"mailto:mark.antonenko57@gmail.com","address":{"@type":"PostalAddress","addressCountry":"UA"},"knowsLanguage":["uk","ru","en"],"sameAs":["https://t.me/mark4121","https://github.com/antonenkoo"]}
+</script>
 <style>
   :root {
-    --bg: #fbfbfd; --alt: #f5f5f7; --card: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --line: #d2d2d7;
-    --link: #0066cc; --btn: #0071e3; --dark: #000000; --dark-text: #f5f5f7; --dark-muted: #a1a1a6;
+    --bg: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --line: #d2d2d7; --link: #0066cc; --accent: #0071e3;
+    --measure: 680px;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #000000; --alt: #0f0f10; --card: #1c1c1e; --text: #f5f5f7; --muted: #a1a1a6; --line: #333336; --link: #2997ff; --btn: #0071e3; --dark: #161617; }
+    :root { --bg: #000000; --text: #f5f5f7; --muted: #a1a1a6; --line: #424245; --link: #2997ff; }
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 17px; line-height: 1.47; letter-spacing: -.022em; -webkit-font-smoothing: antialiased; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.53 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; letter-spacing: -.016em; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
   a { color: var(--link); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 0 22px; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+  .skip { position: absolute; left: -9999px; }
+  .skip:focus { left: 16px; top: 12px; background: var(--bg); padding: 8px 12px; z-index: 30; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 24px; }
 
-  /* nav */
-  nav { position: sticky; top: 0; z-index: 20; height: 48px; background: color-mix(in srgb, var(--bg) 78%, transparent); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid color-mix(in srgb, var(--line) 50%, transparent); }
-  nav .wrap { height: 100%; display: flex; align-items: center; gap: 28px; font-size: 12px; letter-spacing: -.01em; }
-  nav .brand { font-size: 17px; font-weight: 600; color: var(--text); margin-right: auto; letter-spacing: -.02em; }
-  nav .brand:hover, nav .links a:hover { text-decoration: none; opacity: .7; }
-  nav .links { display: flex; gap: 28px; }
-  nav .links a { color: var(--text); opacity: .85; }
-  .pill { display: inline-flex; align-items: center; justify-content: center; background: var(--btn); color: #fff !important; border-radius: 980px; font-weight: 400; text-decoration: none !important; transition: background .2s; }
-  .pill:hover { background: #0077ed; }
-  nav .pill { font-size: 12px; padding: 4px 11px; }
+  header.bar { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid color-mix(in srgb, var(--line) 60%, transparent); }
+  header.bar .wrap { height: 52px; display: flex; align-items: center; gap: 28px; font-size: 14px; }
+  header.bar .name { font-weight: 600; font-size: 17px; color: var(--text); margin-right: auto; }
+  header.bar nav { display: flex; gap: 28px; }
+  header.bar nav a { color: var(--text); opacity: .8; }
+  header.bar nav a:hover { opacity: 1; text-decoration: none; }
 
-  /* hero */
-  .hero { text-align: center; padding: 120px 0 96px; }
-  .eyebrow { font-size: 21px; font-weight: 600; color: var(--muted); letter-spacing: .004em; margin: 0 0 12px; }
-  h1 { font-size: clamp(48px, 8vw, 80px); line-height: 1.05; font-weight: 700; letter-spacing: -.015em; margin: 0 auto 24px; max-width: 900px; }
-  .sub { font-size: clamp(21px, 2.6vw, 28px); line-height: 1.25; color: var(--muted); font-weight: 400; max-width: 760px; margin: 0 auto 40px; letter-spacing: .004em; }
-  .actions { display: flex; gap: 32px; justify-content: center; align-items: center; flex-wrap: wrap; font-size: 17px; }
-  .actions .pill { font-size: 17px; padding: 12px 24px; }
-  .more::after { content: " \203A"; font-size: 1.15em; }
+  .hero { padding: 128px 0 112px; }
+  .role { color: var(--muted); font-size: 19px; font-weight: 500; margin: 0 0 16px; letter-spacing: -.01em; }
+  h1 { font-size: clamp(48px, 8.2vw, 88px); line-height: 1.02; font-weight: 700; letter-spacing: -.035em; margin: 0 0 32px; }
+  .lede { font-size: clamp(22px, 2.8vw, 30px); line-height: 1.3; letter-spacing: -.02em; color: var(--muted); max-width: 820px; margin: 0 0 40px; font-weight: 500; }
+  .lede b { color: var(--text); font-weight: 600; }
+  .links { display: flex; gap: 32px; flex-wrap: wrap; font-size: 19px; }
+  .chev::after { content: "\00a0\203A"; }
 
-  /* stats band */
-  .band { background: var(--alt); padding: 88px 0; }
-  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; }
-  .stat .num { font-size: clamp(44px, 6vw, 64px); font-weight: 700; letter-spacing: -.02em; line-height: 1.05; background: linear-gradient(180deg, var(--text), color-mix(in srgb, var(--text) 60%, var(--muted))); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .stat .lbl { color: var(--muted); font-size: 15px; margin-top: 8px; line-height: 1.35; }
+  .facts { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .fact { padding: 40px 24px 36px 0; }
+  .fact + .fact { padding-left: 24px; border-left: 1px solid var(--line); }
+  .fact b { display: block; font-size: 40px; line-height: 1.1; letter-spacing: -.03em; font-weight: 600; }
+  .fact span { display: block; color: var(--muted); font-size: 15px; margin-top: 6px; line-height: 1.4; }
 
-  /* feature tile */
-  .feature { padding: 96px 0; }
-  .tile { background: var(--dark); color: var(--dark-text); border-radius: 28px; padding: 72px 64px; overflow: hidden; position: relative; }
-  .tile::after { content: ""; position: absolute; inset: auto -20% -60% 40%; height: 120%; background: radial-gradient(closest-side, rgba(41,151,255,.35), transparent); pointer-events: none; }
-  .tile .kicker { color: #2997ff; font-weight: 600; font-size: 17px; margin-bottom: 10px; }
-  .tile h2 { font-size: clamp(36px, 5vw, 56px); line-height: 1.07; letter-spacing: -.01em; margin: 0 0 18px; max-width: 640px; }
-  .tile p { color: var(--dark-muted); font-size: 21px; line-height: 1.38; max-width: 620px; margin: 0 0 48px; }
-  .points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; position: relative; z-index: 1; }
-  .points h3 { font-size: 19px; margin: 0 0 6px; color: var(--dark-text); }
-  .points span { color: var(--dark-muted); font-size: 15px; line-height: 1.45; display: block; }
+  section { display: grid; grid-template-columns: 220px 1fr; gap: 0 48px; padding: 104px 0 0; }
+  section > h2 { font-size: 15px; font-weight: 600; color: var(--muted); letter-spacing: -.005em; margin: 10px 0 0; text-transform: none; }
+  .body { max-width: var(--measure); }
+  .body > p.statement, .statement { color: var(--text); font-size: clamp(30px, 4vw, 44px); line-height: 1.12; letter-spacing: -.03em; font-weight: 700; margin: 0 0 20px; }
+  .body > p { margin: 0 0 20px; font-size: 19px; line-height: 1.5; color: var(--muted); }
+  .body > p b { color: var(--text); font-weight: 600; }
 
-  /* sections */
-  section.block { padding: 96px 0; }
-  .head { text-align: center; margin-bottom: 56px; }
-  .head h2 { font-size: clamp(36px, 5vw, 48px); line-height: 1.08; letter-spacing: -.01em; margin: 0 0 12px; }
-  .head p { color: var(--muted); font-size: 21px; margin: 0; }
+  .trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 36px; border-top: 1px solid var(--line); }
+  .trio div { padding: 22px 20px 0 0; }
+  .trio div + div { padding-left: 20px; border-left: 1px solid var(--line); }
+  .trio h3 { font-size: 17px; margin: 0 0 6px; letter-spacing: -.015em; }
+  .trio p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.47; }
 
-  /* experience */
-  .xp { display: grid; gap: 20px; }
-  .card { background: var(--card); border-radius: 22px; padding: 40px 44px; box-shadow: 0 2px 12px rgba(0,0,0,.04); }
-  @media (prefers-color-scheme: dark) { .card { box-shadow: none; } }
-  .card-top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 6px; }
-  .card h3 { font-size: 28px; letter-spacing: -.01em; margin: 0; }
-  .when { color: var(--muted); font-size: 15px; white-space: nowrap; }
-  .where { color: var(--muted); font-size: 17px; margin-bottom: 22px; }
-  .card ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
-  .card li { padding-left: 22px; position: relative; }
-  .card li::before { content: ""; position: absolute; left: 2px; top: .62em; width: 6px; height: 6px; border-radius: 50%; background: var(--btn); }
-  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 8px; }
-  .step { background: var(--alt); border-radius: 16px; padding: 22px; }
-  .step .n { font-size: 13px; color: var(--muted); }
-  .step h4 { font-size: 19px; margin: 4px 0 2px; }
-  .step .d { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
-  .step p { margin: 0; font-size: 15px; line-height: 1.45; }
+  .job { padding: 0 0 36px; margin: 0 0 36px; border-bottom: 1px solid var(--line); }
+  .job:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+  .job h3 { font-size: 24px; letter-spacing: -.025em; margin: 0; line-height: 1.2; }
+  .job .meta { color: var(--muted); font-size: 15px; margin: 6px 0 16px; }
+  .job ul { margin: 0; padding-left: 20px; }
+  .job li { margin: 8px 0; padding-left: 4px; }
+  .job li::marker { color: var(--muted); }
+  .path { margin-top: 18px; display: grid; gap: 18px; }
+  .path h4 { font-size: 17px; margin: 0; letter-spacing: -.015em; }
+  .path h4 span { color: var(--muted); font-weight: 400; font-size: 15px; margin-left: 10px; }
+  .path p { margin: 4px 0 0; color: var(--muted); font-size: 16px; line-height: 1.5; }
 
-  /* skills */
-  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-  .skill { background: var(--card); border-radius: 22px; padding: 34px 36px; box-shadow: 0 2px 12px rgba(0,0,0,.04); }
-  @media (prefers-color-scheme: dark) { .skill { box-shadow: none; } }
-  .skill h3 { font-size: 21px; margin: 0 0 8px; }
-  .skill p { color: var(--muted); margin: 0; font-size: 17px; line-height: 1.5; }
-  .langs { text-align: center; color: var(--muted); margin-top: 40px; }
+  dl { margin: 0; display: grid; grid-template-columns: 200px 1fr; }
+  dt, dd { padding: 18px 0; border-top: 1px solid var(--line); margin: 0; }
+  dt { font-weight: 600; padding-right: 24px; }
+  dd { color: var(--muted); }
+  dl > :nth-child(-n+2) { border-top: 0; padding-top: 2px; }
 
-  /* contact */
-  .contact { text-align: center; padding: 120px 0; background: var(--alt); }
-  .contact h2 { font-size: clamp(40px, 6vw, 64px); line-height: 1.06; letter-spacing: -.015em; margin: 0 0 16px; }
-  .contact p { color: var(--muted); font-size: 21px; max-width: 620px; margin: 0 auto 36px; }
-  footer { color: var(--muted); font-size: 12px; padding: 22px 0 40px; border-top: 1px solid var(--line); }
-  footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-
-  /* motion */
-  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); }
-  .reveal.in { opacity: 1; transform: none; }
-  @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } }
+  .contact .statement { margin-bottom: 16px; }
+  .contact .links { margin-top: 28px; }
+  footer { margin-top: 128px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 22px 24px 40px; }
 
   @media (max-width: 834px) {
-    nav .links { display: none; }
-    .hero { padding: 80px 0 64px; }
-    .eyebrow { font-size: 17px; }
-    .stat .num { font-size: 40px; }
-    .stats { grid-template-columns: repeat(2, 1fr); row-gap: 40px; }
-    .tile { padding: 48px 28px; border-radius: 22px; }
-    .points, .steps, .grid { grid-template-columns: 1fr; }
-    .card { padding: 30px 24px; }
-    .skill { padding: 28px 24px; }
-    section.block, .feature { padding: 72px 0; }
+    header.bar nav { display: none; }
+    .hero { padding: 88px 0 72px; }
+    .facts { grid-template-columns: repeat(2, 1fr); }
+    .fact b { font-size: 32px; }
+    .fact:nth-child(3) { padding-left: 0; border-left: 0; }
+    .fact:nth-child(n+3) { border-top: 1px solid var(--line); }
+    section { grid-template-columns: 1fr; padding-top: 72px; }
+    section > h2 { margin: 0 0 14px; }
+    .trio { grid-template-columns: 1fr; }
+    .trio div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); margin-top: 20px; }
+    dl { grid-template-columns: 1fr; }
+    dt { border-top: 1px solid var(--line); padding-bottom: 4px; }
+    dd { border-top: 0; padding-top: 0; }
+    dl > :nth-child(2) { padding-top: 0; }
+    footer { margin-top: 96px; }
   }
 </style>
 </head>
 <body>
-<nav><div class="wrap">
-  <a class="brand" href="#">Mark Antonenko</a>
-  <div class="links"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
-  <a class="pill" href="Mark_Antonenko_CV.pdf" download>Download CV</a>
-</div></nav>
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar"><div class="wrap">
+  <a class="name" href="#top">Mark Antonenko</a>
+  <nav aria-label="Sections"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+  <a href="Mark_Antonenko_CV.pdf" download>Download CV</a>
+</div></header>
 
-<header class="hero wrap">
-  <p class="eyebrow reveal">Technical Support · QA · AI Automation</p>
-  <h1 class="reveal">Routine, automated.<br>People, cared for.</h1>
-  <p class="sub reveal">I build systems that take routine work off people's hands, and I keep every conversation human. 3.5 years in SaaS. Remote from Ukraine.</p>
-  <div class="actions reveal">
-    <a class="pill" href="Mark_Antonenko_CV.pdf" download>Download CV</a>
-    <a class="more" href="https://t.me/mark4121">Message on Telegram</a>
-  </div>
-</header>
-
-<div class="band"><div class="wrap stats">
-  <div class="stat reveal"><div class="num">20+</div><div class="lbl">apartments run on<br>a system I built</div></div>
-  <div class="stat reveal"><div class="num">4.9</div><div class="lbl">client communication<br>rating</div></div>
-  <div class="stat reveal"><div class="num">1-5 min</div><div class="lbl">typical reply<br>to a guest</div></div>
-  <div class="stat reveal"><div class="num">3.5 yrs</div><div class="lbl">in a SaaS<br>product team</div></div>
-</div></div>
-
-<section class="feature wrap" id="work">
-  <div class="tile reveal">
-    <div class="kicker">Operations, rebuilt</div>
-    <h2>The system behind 20+ apartments.</h2>
-    <p>Guest messages, cleaning schedules and repairs used to be manual. I turned them into one system that runs every day, while the client communication rating stays at 4.9.</p>
-    <div class="points">
-      <div><h3>Answers in minutes</h3><span>AI replies to standard guest questions within 1 to 5 minutes, using a fact base for each apartment.</span></div>
-      <div><h3>People stay in the loop</h3><span>Anything unusual comes to me with a ready reply to approve, so nothing goes out unchecked.</span></div>
-      <div><h3>Staff on schedule</h3><span>Cleaning and maintenance plans are built from live bookings and delivered through Telegram bots.</span></div>
+<main id="main" class="wrap">
+  <div class="hero" id="top">
+    <p class="role">Technical Support · QA · AI Automation</p>
+    <h1>Mark Antonenko</h1>
+    <p class="lede"><b>Routine, automated. People, cared for.</b> I build systems that take routine work off people's hands, and keep every conversation with clients human.</p>
+    <div class="links">
+      <a class="chev" href="Mark_Antonenko_CV.pdf" download>Download CV</a>
+      <a class="chev" href="https://t.me/mark4121">Message on Telegram</a>
     </div>
   </div>
-</section>
 
-<section class="block wrap" id="experience">
-  <div class="head reveal"><h2>Experience.</h2><p>Hands-on with the product, the code and the people who use it.</p></div>
-  <div class="xp">
-    <div class="card reveal">
-      <div class="card-top"><h3>Operations Manager</h3><span class="when">Jul 2026 · now</span></div>
-      <div class="where">Short-term rental company, Vienna · remote</div>
-      <ul>
-        <li>Built a system that runs the business of 20+ apartments and kept the client communication rating steadily at 4.9.</li>
-        <li>Handled guest requests, conflicts and urgent repairs; coordinated cleaning staff and maintenance.</li>
-        <li>TypeScript, Node.js, MongoDB, Claude API and Hostaway API, with automated tests before every release.</li>
-      </ul>
-    </div>
+  <div class="facts" aria-label="Highlights">
+    <div class="fact"><b>20+</b><span>apartments run on a system I built</span></div>
+    <div class="fact"><b>4.9</b><span>client communication rating</span></div>
+    <div class="fact"><b>1-5 min</b><span>typical reply time to a guest</span></div>
+    <div class="fact"><b>3.5 years</b><span>in a SaaS product team</span></div>
+  </div>
 
-    <div class="card reveal">
-      <div class="card-top"><h3>Logistics SaaS company</h3><span class="when">Jan 2023 · Jun 2026</span></div>
-      <div class="where">Trucking dispatch CRM and driver mobile app · remote</div>
-      <div class="steps">
-        <div class="step"><div class="n">01</div><h4>Full-stack Developer</h4><div class="d">Jan 2023 · Aug 2024</div><p>CRM features in Angular and REST APIs in Node.js; Stripe, Google Maps, Firebase, Sentry.</p></div>
-        <div class="step"><div class="n">02</div><h4>QA Engineer</h4><div class="d">Sep 2024 · Dec 2025</div><p>Tested the iOS driver app and a large web CRM: regression, release testing, bug reports, Postman, Jira.</p></div>
-        <div class="step"><div class="n">03</div><h4>Project Manager</h4><div class="d">Jan 2026 · Jun 2026</div><p>Link between the client and a 7-person team: requests into tasks, feedback, releases every 1 to 2 weeks.</p></div>
+  <section id="work" aria-labelledby="work-h">
+    <h2 id="work-h">Selected work</h2>
+    <div class="body">
+      <p class="statement">The system behind 20+ apartments.</p>
+      <p>Guest messages, cleaning schedules and repairs used to be handled by hand. I turned them into one system that runs every day, <b>while the client communication rating stays at 4.9</b>.</p>
+      <div class="trio">
+        <div><h3>Fast answers</h3><p>Standard guest questions are answered within 1 to 5 minutes, from a fact base for each apartment.</p></div>
+        <div><h3>A person in the loop</h3><p>Anything unusual comes to me with a ready reply to approve. Nothing goes out unchecked.</p></div>
+        <div><h3>Staff on schedule</h3><p>Cleaning and maintenance plans are built from live bookings and sent to the team automatically.</p></div>
       </div>
     </div>
+  </section>
 
-    <div class="card reveal">
-      <div class="card-top"><h3>Freelance QA & Front-end Developer</h3><span class="when">Feb 2024 · Aug 2024</span></div>
-      <div class="where">US fuel tax reporting service for trucking</div>
-      <ul><li>Unit tests and front-end features: data tables and a small marketing website.</li></ul>
+  <section id="experience" aria-labelledby="exp-h">
+    <h2 id="exp-h">Experience</h2>
+    <div class="body">
+      <div class="job">
+        <h3>Operations Manager</h3>
+        <div class="meta">Short-term rental company, Vienna · Remote · Since July 2026</div>
+        <ul>
+          <li>Built a system that runs the business of 20+ apartments and kept the client communication rating steadily at 4.9.</li>
+          <li>Handled guest requests, conflicts and urgent repairs; coordinated cleaning staff and maintenance.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Logistics SaaS company</h3>
+        <div class="meta">Trucking dispatch CRM and driver mobile app · Remote · January 2023 to June 2026</div>
+        <div class="path">
+          <div><h4>Project Manager<span>2026</span></h4><p>The link between the client and a 7-person team: requests into tasks, client feedback, releases every one to two weeks.</p></div>
+          <div><h4>QA Engineer<span>2024 to 2025</span></h4><p>Tested the iOS driver app and a large web CRM: regression and release testing, clear bug reports, Postman, Jira.</p></div>
+          <div><h4>Full-stack Developer<span>2023 to 2024</span></h4><p>CRM features in Angular and REST APIs in Node.js, with Stripe, Google Maps and Firebase integrations.</p></div>
+        </div>
+      </div>
+      <div class="job">
+        <h3>Freelance QA and Front-end Developer</h3>
+        <div class="meta">US fuel tax reporting service for trucking · February to August 2024</div>
+        <ul><li>Unit tests and front-end features: data tables and a small marketing website.</li></ul>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="block wrap" id="skills">
-  <div class="head reveal"><h2>What I bring.</h2><p>Four sides of the same goal: things that work, and people who are happy.</p></div>
-  <div class="grid">
-    <div class="skill reveal"><h3>Support & operations</h3><p>Chat and email support, issue resolution, escalation, ticket triage and knowledge bases.</p></div>
-    <div class="skill reveal"><h3>Quality assurance</h3><p>Functional, regression and release testing of web and iOS apps, test cases, clear bug reports, Postman.</p></div>
-    <div class="skill reveal"><h3>Project coordination</h3><p>Requirements, task breakdown, releases and client communication in Jira, GitLab and Notion.</p></div>
-    <div class="skill reveal"><h3>Tech & AI</h3><p>TypeScript, Angular, Node.js, MongoDB, basic SQL, Claude API and Telegram bots.</p></div>
-  </div>
-  <p class="langs reveal">Ukrainian and Russian, native. English, B2.</p>
-</section>
-
-<section class="contact" id="contact">
-  <div class="wrap">
-    <h2 class="reveal">Let's work together.</h2>
-    <p class="reveal">Open to remote roles in customer support, technical support, QA and project coordination. Telegram is the fastest way to reach me.</p>
-    <div class="actions reveal">
-      <a class="pill" href="https://t.me/mark4121">Telegram @mark4121</a>
-      <a class="more" href="mailto:mark.antonenko57@gmail.com">mark.antonenko57@gmail.com</a>
+  <section id="skills" aria-labelledby="skills-h">
+    <h2 id="skills-h">Skills</h2>
+    <div class="body">
+      <dl>
+        <dt>Support</dt><dd>Chat and email support, issue resolution, escalation, ticket triage, knowledge bases.</dd>
+        <dt>Quality assurance</dt><dd>Functional, regression and release testing of web and iOS apps, test cases, bug reports, Postman.</dd>
+        <dt>Coordination</dt><dd>Requirements, task breakdown, releases and client communication in Jira, GitLab and Notion.</dd>
+        <dt>Technology</dt><dd>TypeScript, Angular, Node.js, MongoDB, SQL basics, Claude API, Telegram bots.</dd>
+        <dt>Languages</dt><dd>Ukrainian and Russian, native. English, B2.</dd>
+      </dl>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer><div class="wrap"><span>Mark Antonenko · Ukraine, remote</span><span><a href="Mark_Antonenko_CV.pdf" download>Download CV</a></span></div></footer>
+  <section id="contact" class="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Contact</h2>
+    <div class="body">
+      <p class="statement">Let's work together.</p>
+      <p>Open to remote roles in customer support, technical support, QA and project coordination. Telegram is the fastest way to reach me.</p>
+      <div class="links">
+        <a class="chev" href="https://t.me/mark4121">Telegram @mark4121</a>
+        <a class="chev" href="mailto:mark.antonenko57@gmail.com">mark.antonenko57@gmail.com</a>
+      </div>
+    </div>
+  </section>
+</main>
 
-<script>
-  const io = new IntersectionObserver((entries) => entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
-  document.querySelectorAll('.reveal').forEach((el, i) => { el.style.transitionDelay = `${(i % 4) * 70}ms`; io.observe(el); });
-</script>
+<footer><div class="wrap"><span>Mark Antonenko · Ukraine, remote</span><a href="Mark_Antonenko_CV.pdf" download>Download CV</a></div></footer>
 </body>
 </html>
