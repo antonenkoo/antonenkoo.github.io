@@ -127,7 +127,7 @@
   /* ---------- stack explorer ---------- */
   const P = {
     rent: ["Rental operations system, Vienna", "2026 · 20+ apartments, rating 4.9"],
-    crm: ["Logistics SaaS: dispatch CRM and iOS driver app", "2023 to 2026 · developer, QA, PM"],
+    crm: ["Logistics SaaS: dispatch CRM and iOS driver app", "2022 to 2026 · developer, QA, PM"],
     fin: ["Finance Telegram bot", "Personal project · webhook, Mini App, PDF reports"],
     asst: ["Personal assistant bot", "Personal project · mail, tasks, voice notes"],
     fuel: ["US fuel tax reporting, freelance", "2024 · unit tests and front-end"],
