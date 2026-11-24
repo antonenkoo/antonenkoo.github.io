@@ -259,7 +259,7 @@
     ["ai", "answers standard guest questions in 1 to 5 minutes"],
     ["ai", "keeps a person in the loop for anything unusual"],
     ["support", "holds a 4.9 client communication rating"],
-    ["ops", "runs daily work for 20+ apartments"],
+    ["ops", "ran daily work for 20+ apartments"],
     ["team", "linked a client and a 7-person team as PM"],
     ["lang", "Ukrainian, Russian native · English B2"],
   ];
